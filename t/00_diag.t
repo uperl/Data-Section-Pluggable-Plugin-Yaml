@@ -10,8 +10,16 @@ my %modules;
 my $post_diag;
 
 $modules{$_} = $_ for qw(
+  Data::Section::Pluggable
+  Data::Section::Pluggable::Role::ContentProcessorPlugin
   ExtUtils::MakeMaker
+  Path::Tiny
+  Role::Tiny::With
   Test2::V0
+  Test::Script
+  YAML::XS
+  stable
+  true
 );
 
 
