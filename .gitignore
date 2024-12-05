@@ -1,0 +1,5 @@
+Data-Section-Pluggable-Plugin-Yaml-*
+/.build/
+*.swp
+
+
